@@ -1,0 +1,1 @@
+SELECT message_text FROM sys.messages where message_text like '%PHP Warning%'

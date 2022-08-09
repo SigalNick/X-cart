@@ -1,0 +1,1 @@
+SELECT * FROM sys.messages ORDER BY date_time DESC LIMIT 3

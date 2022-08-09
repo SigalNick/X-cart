@@ -1,0 +1,1 @@
+SELECT * FROM sys.messages where date_time like '%2022-03%'
