@@ -1,0 +1,281 @@
+font-family: 'Roboto', sans-serif;
+
+body, html{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+    display: flex;
+	align-items: flex-start;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.content{
+	flex: 1 0 auto;
+	padding:  5px;
+}
+
+.footer{
+	flex-shrink: 0;
+	padding: 20px;
+	background: url('../images/Path12.png')
+}
+
+.logo{
+flex-grow: 8;
+}
+
+.logopadding{
+	flex-grow:1;
+}
+
+.unsubscribe-btn{
+	margin: 0;
+	padding: 0;
+	dislay: flex;
+	flex-grow: 1;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: gray;
+	padding-top: 11px;
+}
+
+.unsubscribe-btn:hover{
+	color:#00E1FF;
+}
+
+.bgmg{
+	background: url('../images/1.jpeg') center
+	no-repeat;
+	background-size: 100%;
+}
+
+.title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: white;
+}
+
+.subtitle{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: white;
+	padding-bottom: 12px;
+}
+
+.learn-more-btn{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	color: white;
+	background: url('../images/Path1.png')center;
+	background-repeat: no-repeat;
+	height: 30px;
+	padding-top: 11px;
+
+}
+
+.wrapper-titles{
+	padding-top: 13%;
+	text-align: center;		
+}
+
+.icons1{
+	display: flex;
+	text-align: center;
+	padding-bottom: 32px;
+	justify-content: space-around;
+}
+
+.icons11{
+	display: inline;
+	position: relative;	
+}
+
+
+.Icon-titles{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: black;
+	padding-top: 20px;
+}
+
+.Icon-subtitles{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: gray;
+	padding-top: 15px;
+}
+
+.text{
+	font-family: 'Roboto', sans-serif;
+	font-style: Italic;
+	font-weight: 300;
+	font-size: 20px;
+	color: #ff6e50;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.cool-images{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-bottom: 32px;
+	justify-content: space-around;
+}
+
+.blog-title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+padding-bottom: 70px;
+}
+
+.cool-texts{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: black;
+	padding-bottom: 20px;
+}
+
+.galaxy-texts{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #545B6B;
+	padding-bottom: 70px;
+}
+
+.Web-Design-texts{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #ff6e50;
+	height: 50px;
+
+}
+
+.Latin-texts{
+	display: flex;
+	text-align: left;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #545B6B;
+	padding-bottom: 50px;
+}
+
+.imgs{
+	display: flex;
+	text-align: center;
+	padding-bottom: 32px;
+	justify-content: space-around;
+}
+
+.wrapper-logo{
+	background: url('../images/Path4.png');
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 60px;
+}
+
+.wrapper-icons{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+.iconPadding{
+	padding-top:30%;
+}
+
+.wrapper-footer{
+	display: flex;
+	align-items: center;
+}
+
+.facebook{
+	flex-grow:1;
+}
+
+.twitter{
+	flex-grow:1;
+}
+
+.dribble{
+	flex-grow:1;
+}
+
+.logo1{
+	flex-grow:1;
+}
+
+.allr{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: white;
+	flex-grow:10;
+}
+
+.flexgrow{
+	flex-grow:2;
+}
+
+.coolwrapper{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.super-puper-coolwrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.title122{
+	display: flex;
+	
+	
+}
+
+.title121{
+	display: flex;
+	
+}
+
+
